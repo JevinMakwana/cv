@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Win fitness</title>
+
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* css Reset */
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url('img/athletic-man-woman-with-dumbbells.jpg');
+        /* background-repeat: no-repeat; */
+        background-size: 100%;
+        color: aliceblue;
+    }
+
+    .left {
+        display: inline-block;
+        border: 2px solid rgb(19, 208, 241);
+        position: absolute;
+        right: 87.7%;
+        top: 2px;
+        margin: 10px auto;
+        font-size: 20px;
+
+    }
+
+    .left img {
+        width: 59%;
+    }
+
+    .mid {
+        /* position: relative; */
+        /* left: 30%; */
+        display: block;
+        width: 33%;
+        margin: 12px auto;
+        border: 2px solid rgb(19, 208, 241);
+        margin: 10px auto;
+
+    }
+
+    .right {
+        display: inline-block;
+        border: 2px solid rgb(19, 208, 241);
+        position: absolute;
+        left: 87%;
+        top: 2px;
+        margin: 10px auto;
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+
+    }
+
+    .navbar li a {
+        color: ghostwhite;
+        text-decoration: none;
+        padding: 34px 10px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: yellowgreen;
+
+    }
+
+    .btn {
+        color: lawngreen;
+        margin: opx 9px;
+        background-color: rgba(26, 22, 22, 0.733);
+        padding: 1px 10px;
+        border: 1px solid rgba(169, 169, 169, 0.575);
+        border-radius: 3px;
+        font-size: 12px;
+    }
+
+    .btn:hover {
+        color: rgb(126, 247, 4);
+        margin: opx 9px;
+        background-color: rgba(49, 43, 43, 0.582);
+        padding: 1px 10px;
+        border: 1px solid rgba(169, 169, 169, 0.575);
+        border-radius: 3px;
+        font-size: 12px;
+    }
+
+    .container {
+        position: relative;
+        border: 2px solid lawngreen;
+        display: block;
+        width: 38%;
+        margin: 0px 45px;
+        top: 178px;
+        padding: 30px;
+        border-radius: 10px;
+    }
+    form .frm{
+        text-align: center;
+        display: block;
+        width: 35px;
+        padding: 10px;
+        border: 2px solid lawngreen;
+        margin: 3px auto;
+        
+    }
+    /* #b1{
+        background-color: rgb(179, 169, 148);
+    }
+    #submt{
+        border: 25px;
+    } */
+</style>
+
+<body>
+    <header class="header">
+        <!-- Left side for logo -->
+        <div class="left">
+            <img src="img/black_bg_LOGO3.png" alt="">WIN^fitness_club
+
+        </div>
+
+        <!-- Midel side for navigation -->
+
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active"> HOME</a></li>
+                <li><a href="#"> MEMBERSHIP</a></li>
+                <li><a href="#"> ABOUT US</a></li>
+                <li><a href="#"> CONTACT US</a></li>
+            </ul>
+        </div>
+
+        <!-- right side for contact -->
+
+        <div class="right">
+            <button class="btn">call us now</button>
+            <button class="btn">mail us now</button>
+        </div>
+    </header>
+
+
+    <div class="container">
+        <form action="#">
+            <div class="frm">
+                <input type="text" name="" class="b1" placeholder="Your good name.">
+            </div>
+            <div class="frm">
+                <input type="number" name="" class="b1" placeholder="Your age.">
+            </div>
+            <div class="frm">
+                <input type="number" name="" class="b1" placeholder="Contact no.">
+            </div>
+            <div class="frm">
+                <input type="number" name="" class="b1" placeholder="Other contact">
+            </div>
+            <div class="frm">
+                
+                <button id="submt">JOIN NOW!</button>
+            </div>
+        </form>
+    </div>
+
+
+
+</body>
+
+</html>
